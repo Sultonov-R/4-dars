@@ -1,0 +1,26 @@
+.add-app{
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 40%;
+    gap: 20px;
+    justify-content: space-between;
+}
+.btn-add{
+    display: flex;
+    width: 60px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(26, 13, 13);
+    color: #d1d1d1;
+    cursor: pointer;
+    border-radius:5px;
+}
+.btn-add:hover{
+    color:rgb(26, 13, 13);
+    background-color: #d1d1d1 ;
+}
+.input-add{
+    padding: 10px;
+    border-radius: 10px;
+}
